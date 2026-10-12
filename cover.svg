@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Walima Reception — Muhammad Babar Malik</title>
+  <desc id="desc">A royal green and gold Walima invitation cover.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041f1a"/>
+      <stop offset="0.52" stop-color="#062f27"/>
+      <stop offset="1" stop-color="#0b4d3c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1ae"/>
+      <stop offset="0.45" stop-color="#d6ad54"/>
+      <stop offset="1" stop-color="#fff3bc"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d6ad54" stop-opacity=".22"/><stop offset="1" stop-color="#d6ad54" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="0" r="430" fill="url(#glow)"/>
+  <rect x="24" y="24" width="1152" height="582" rx="18" fill="none" stroke="#d6ad54" stroke-width="2" opacity=".8"/>
+  <rect x="45" y="45" width="1110" height="540" rx="12" fill="none" stroke="#d6ad54" stroke-width="1" opacity=".35"/>
+  <path d="M74 118V74h44M1082 74h44v44M74 512v44h44M1082 556h44v-44" fill="none" stroke="#d6ad54" stroke-width="3"/>
+  <text x="600" y="125" text-anchor="middle" fill="url(#gold)" font-size="34" font-family="serif">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</text>
+  <text x="600" y="205" text-anchor="middle" fill="#f8edc9" font-size="24" font-family="serif" font-style="italic">With gratitude to Allah Almighty</text>
+  <text x="600" y="300" text-anchor="middle" fill="url(#gold)" font-size="92" font-family="Georgia, serif" font-weight="bold">Walima</text>
+  <text x="600" y="344" text-anchor="middle" fill="#f8edc9" font-size="21" font-family="Arial, sans-serif" letter-spacing="10">RECEPTION</text>
+  <line x1="330" y1="390" x2="520" y2="390" stroke="#d6ad54" stroke-width="1" opacity=".8"/>
+  <text x="600" y="400" text-anchor="middle" fill="#d6ad54" font-size="28">✦</text>
+  <line x1="680" y1="390" x2="870" y2="390" stroke="#d6ad54" stroke-width="1" opacity=".8"/>
+  <text x="600" y="460" text-anchor="middle" fill="url(#gold)" font-size="36" font-family="Georgia, serif" font-weight="bold">Muhammad Babar Malik</text>
+  <text x="600" y="505" text-anchor="middle" fill="#f8edc9" font-size="20" font-family="Georgia, serif">Thursday, 26th November  •  1:00 PM  •  Qasre Noor Marquee Talagang</text>
+  <text x="600" y="555" text-anchor="middle" fill="#d6ad54" font-size="16" font-family="Arial, sans-serif" letter-spacing="4">TAP TO OPEN INVITATION</text>
+</svg>
