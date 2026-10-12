@@ -4,7 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#062f27" />
+  <meta name="description" content="Walima Reception invitation for Muhammad Babar Malik." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Walima Reception — Muhammad Babar Malik" />
+  <meta property="og:description" content="You are cordially invited to the Walima Reception." />
+  <meta property="og:url" content="https://babar-18.github.io/wedding-invitation/" />
+  <meta property="og:image" content="https://babar-18.github.io/wedding-invitation/cover.svg" />
+  <meta property="og:image:type" content="image/svg+xml" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Walima Reception — Muhammad Babar Malik" />
+  <meta name="twitter:description" content="You are cordially invited to the Walima Reception." />
+  <meta name="twitter:image" content="https://babar-18.github.io/wedding-invitation/cover.svg" />
   <title>Walima Reception — Muhammad Babar Malik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet" />
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -60,6 +76,23 @@
 
     .font-display {
       font-family: Georgia, "Times New Roman", serif;
+    }
+
+    .urdu-title,
+    .urdu-text {
+      direction: rtl;
+      font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+      text-rendering: optimizeLegibility;
+    }
+
+    .urdu-title {
+      line-height: 2.6;
+      padding: 0.4em 0.1em 0.7em;
+    }
+
+    .urdu-text {
+      line-height: 2.2;
+      padding: 0.2em 0.1em 0.4em;
     }
 
     .gold-text {
@@ -345,7 +378,7 @@
 
     <section id="envelope-stage" class="envelope-stage fixed inset-0 z-30 flex min-h-screen flex-col items-center justify-center bg-[#041f1a]/95 px-4 text-center backdrop-blur-sm">
       <div class="mb-8">
-        <p class="text-2xl text-gold font-display">Bismillah</p>
+        <p dir="rtl" lang="ur" class="urdu-title text-2xl text-gold">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
       </div>
 
       <div id="gate" class="gate">
@@ -358,14 +391,14 @@
     </section>
 
     <section id="invitation-card" class="invitation-card invitation-shell mx-auto max-w-2xl rounded-[2rem] bg-[#07372d]/95 px-6 py-12 text-center sm:px-12">
-      <p class="mb-7 font-display text-2xl text-gold sm:text-3xl">Bismillah</p>
+      <p dir="rtl" lang="ur" class="urdu-title mb-7 text-2xl text-gold sm:text-3xl">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
 
       <div class="mx-auto mb-8 max-w-lg">
-        <p class="font-display text-lg italic text-champagne/90">"And among His signs is that He created for you spouses from among yourselves so that you may find tranquility in them and He placed between you love and mercy."</p>
-        <p class="mt-2 text-sm text-gold">— Surah Ar-Rum 30:21</p>
+        <p dir="rtl" lang="ur" class="urdu-text text-base italic text-champagne/90 sm:text-lg">"اور اس کی نشانیوں میں سے ایک نشان یہ بھی ہے کہ اس نے تمہارے لیے تم میں سے ہی جوڑیاں پیدا کیں تاکہ تم ان میں سکون پاؤ اور اس نے تمہارے درمیان محبت اور مہربانی رکھی۔"</p>
+        <p dir="rtl" lang="ur" class="urdu-text mt-2 text-sm text-gold">— سُورۃ الرُّوم 30:21</p>
       </div>
 
-      <p class="mb-3 text-2xl text-gold font-display">With the blessings of Allah</p>
+      <p dir="rtl" lang="ur" class="urdu-title mb-3 text-xl text-gold sm:text-2xl">اللہ تعالیٰ کے فضل و کرم سے</p>
       <h1 class="gold-text font-display text-5xl font-bold">Walima</h1>
       <p class="mt-2 text-sm uppercase tracking-[.45em]">Reception</p>
 
